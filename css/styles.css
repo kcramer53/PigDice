@@ -1,0 +1,35 @@
+h2 {
+  text-align: center;
+}
+
+img {
+  width: 300px;
+}
+
+.outputRandom {
+  font-size: 40px;
+  text-shadow: 2px 2px 8px black;
+  text-shadow: -2px -2px 6px black;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  color: #26C100;
+}
+.outputP1 {
+  font-size: 40px;
+  text-shadow: 2px 2px 8px black;
+  text-shadow: -2px -2px 6px black;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  color: #26C100;
+  text-align: center;
+}
+
+.outputP2{
+  font-size: 40px;
+  text-shadow: 2px 2px 8px black;
+  text-shadow: -2px -2px 6px black;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  color: #26C100;
+  text-align: center;
+}
