@@ -4,11 +4,10 @@
 function diceRoll() {
   //defining a variable to be used to store information later
   var rollResult = 0
- //storing a number that is random variable between 0-1 and we are taking that number and multiplying it by 6. .Random returns decimals.
+  //storing a number that is random variable between 0-1 and we are taking that number and multiplying it by 6. .Random returns decimals.
   rollResult = Math.random() * 6;
   //because in lne8 we established a random decimal number this .floor method rounds down and stores new rounded number variable. Because it rounds down we add a 1 to make our range of numbers be 1-6
   var wholeRoll = Math.floor(rollResult) + 1;
-
   $(".outputRandom").text(wholeRoll);
   //display text form of whole role variable defined in line 10
   return wholeRoll
@@ -29,7 +28,7 @@ $(document).ready(function() {
   $(".outputP2").text(p2TurnTotal);
   $(".outputScore").text(p1ScoreTotal);
   $(".outputScore2").text(p2ScoreTotal);
-// calls diceroll generates a random number, the ffunction that runs on the click
+  // calls diceroll generates a random number, the ffunction that runs on the click
   $("#diceImg").click(function() {
     //first line of function that we run first. Created new variable that stores the result of diceRoll
     var rollValue = diceRoll();
@@ -75,7 +74,8 @@ $(document).ready(function() {
     $(".outputP1").text(p1TurnTotal);
     //get your shit and get out of this current function.
     return;
-    //identical to player 1 but for 2.
+  });
+  //identical to player 1 but for 2.
   $("#p2Total").click(function(){
     p2ScoreTotal = p2ScoreTotal + p2TurnTotal;
     $(".outputScore2").text(p2ScoreTotal);
