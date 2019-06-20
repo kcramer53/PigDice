@@ -4,6 +4,7 @@ h2 {
 
 img {
   width: 300px;
+  cursor: pointer;
 }
 
 button {
@@ -79,4 +80,12 @@ h1{
   font-weight: bold;
   color: #26C100;
   text-align: center;
+}
+
+.container {
+  margin: 20px;
+}
+
+#point {
+  font-size: 40px;
 }
